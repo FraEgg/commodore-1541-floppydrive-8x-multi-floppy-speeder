@@ -36,7 +36,7 @@ Ebenso wie das ROM wird das 32K RAM auch in verschiedenen Bereichen der 1541 ein
 > BANK 6-7 $A000 - $BFFF (16KB)<br>
 
 ## 1541 Adressdecoder-Spiegel-Problematik
-Bei der 1541 hat Commodore an einen ordentlichen Adressdecoder gespart. Die VIAs IC bei $1800 und $1C00 werden in den Adressbereichen bis $8000 immer wieder gespiegel. Das Problem habe ich behoben in dem ich die Adressleitung A15 entsprechend auf dem Motherboard verändere. Das stoppt das Spiegel-Problem für das RAM ab Adresse $2000 der 1541. 
+Bei der 1541 hat Commodore an einen ordentlichen Adressdecoder gespart. Die VIAs IC bei $1800 und $1C00 werden in den Adressbereichen bis $8000 immer wieder gespiegel. Das kollediert mit der RAM Erweiterung. Das Problem habe ich behoben, in dem ich die Adressleitung A15 entsprechend auf dem Motherboard verändere. Das stoppt das Spiegel-Problem für das RAM. Somit kollediert ab Adresse $2000 in der 1541 nichts mehr. 
 
 Mit diesem System können verschiedene Floppyspeeder ohne weitere Anpassungen direkt betrieben werden.
 
