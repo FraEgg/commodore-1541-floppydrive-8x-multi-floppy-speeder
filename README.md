@@ -21,7 +21,7 @@ Neben der Platine werden folgende Bauteile benötigt:
  - 3x Widerstände 4,7 kOhm / 1/4 Watt
  - 1x Dip-Schalter, liegend, 3-polig
 
-Auf der Platine ab Version v1.5 brauchen der Wiederstand R4 nicht bestückt werden und der JP1 bleibt offen. Diese sind nur für den Testbetrieb einer WDC W65C02 gedacht.  
+Auf der Platine ab Version v1.5 braucht der Wiederstand R4 nicht bestückt werden und der JP1 bleibt offen. Diese sind nur für den Testbetrieb einer WDC W65C02 CPU gedacht.  
 
 ## ROMs
 Die DOS-KERNALs werden in einem EPROM/EEPROM abgelegt. Das EPROM z. B. 27C040 ist ein 512 KB ROM. Es ist in 8x 64KB Bänke (Bank 0-7) aufgeteilt. Jede Bank $x0000 - $xFFFF spiegel den 64 KB Speicherbereich der Floppy 1:1 wieder. Wobei nur ein bestimmter Teil der Bereiche in den Speicherbereich der 1541 eingeblendet werden. Das nutzt natürlich den Speicher des EPROM nicht besonders aus, macht aber das Adressdecoding sehr einfach und flexibel. Zudem kostet Speicher ja nicht mehr die Welt, ganz im Gegensatz zu den 80er-Jahren :-). Beim Betrieb der Multi-Speeder-Platine müssen alle Original ROMs entfernt werden, da diese sich sonst mit dem ROM des Multi-Speeder im Adressenkonflikt befinden. Die Folge wäre ein Absturz der Floppy beim einschalten.  
