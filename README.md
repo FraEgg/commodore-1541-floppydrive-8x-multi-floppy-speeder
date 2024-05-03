@@ -1,4 +1,4 @@
-# Multi-Speeder für das Commodore 1541 Diskettenlaufwerk I/II V1.5
+# Multi-Speeder für das Commodore 1541 Diskettenlaufwerk I und II (V1.5)
  
 ![Multispeeder 1541 I und II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.1-3.jpg) 
 
@@ -30,7 +30,7 @@ Auf der Platine ab Version v1.5 braucht der Wiederstand R4 nicht bestückt werde
 # ROMs
 Die DOS-KERNALs werden in einem EPROM/EEPROM abgelegt. Das EPROM z. B. 27C040 ist ein 512 KB ROM. Es ist in 8x 64KB Bänke (Bank 0-7) aufgeteilt. Jede Bank $x0000 - $xFFFF spiegelt den 64 KB Speicherbereich der Floppy 1:1 wieder. Wobei nur ein bestimmter Teil der Bereiche in den Speicherbereich der 1541 eingeblendet werden. Das nutzt natürlich den Speicher des EPROM nicht besonders aus, macht aber das Adressdecoding sehr einfach und flexibel. Zudem kostet Speicher nicht mehr die Welt, ganz im Gegensatz zu den 80er-Jahren :-). Beim Betrieb der Multi-Speeder-Platine müssen alle Original ROMs der 1541 entfernt werden, da diese sich sonst mit dem ROM des Multi-Speeder im Adressenkonflikt befinden. Die Folge wäre ein Absturz der Floppy direkt beim einschalten.  
 
-## Welche ROM-Bereiche werden wan eingeblendet?
+## Welche ROM-Bereiche werden wann eingeblendet?
 > BANK 0-3 $A000 - $FFFF<br> 
 > BANK 4-5 $8000 - $FFFF <br>
 > BANK 6-7 $8000 - $8FFF & $C000 - $FFFF<br>
