@@ -1,0 +1,33 @@
+Name     GAL16V08_V1_5.dig ;
+PartNo   00 ;
+Date     13.04.2024 ;
+Revision 01 ;
+Designer Frank Eggen ;
+Company  unknown ;
+Assembly None ;
+Location unknown ;
+Device   g16v8a ;
+
+/* inputs */
+PIN 2 = A12;
+PIN 3 = A13;
+PIN 4 = A14;
+PIN 5 = A15;
+PIN 8 = A17;
+PIN 9 = A18;
+PIN 7 = PHI2;
+PIN 6 = RW;
+
+/* outputs */
+PIN 13 = WERAM;
+PIN 12 = CSRAM;
+PIN 14 = MBA15;
+PIN 15 = CSROM;
+
+/* combinatorial logic */
+CSRAM = (A13 & !A14 & !A18) # (!A13 & A17) # (!A13 & !A15) # (!A14 & !A17 & A18) # (A14 & A15) 
+     # (!A15 & A17);
+CSROM = (A12 & !A14 & A17 & A18) # (A13 & !A14 & A17 & A18) # (!A13 & !A14 & !A18) # !A15;
+MBA15 = A13 # A14 # A15;
+WERAM = RW # (A13 & !A14 & !A18) # (!A13 & A17) # (!A13 & !A15) # (!A14 & !A17 & A18) # (A14 & A15) 
+     # (!A15 & A17) # !PHI2;
