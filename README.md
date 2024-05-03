@@ -43,6 +43,7 @@ Mit diesem System können verschiedene Floppyspeeder ohne weitere Anpassungen di
 ![Betrieb in der älteren 1541 I](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/1541_I_PCB_V1.1-0.jpg?raw=true)Hier ein Beispiel für den Betrieb in einer älteren 1541 I. Die CPU und der Adressdecoder sind gesockelt. Hier ist genug Platz. Dieses ist eine ältere Version 1.1 und das EPROM ist open auf der Platine angebracht.
 
 ## 1541 II
+![Multi-Speeder in der 1541 II](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/1541_II_PCB_V1.4-0.jpg?raw=true)
 Im Gegensatz zur älteren 1541 I ist die 1541 II viel kompakter gebaut. Die Platine findet sich unter dem Laufwerk. Somit ist für Erweiterungen nur wenig Platz. 
 Deshalb löte ich dann die U1 CPU und den Adressdecoder U4b1 ohne IC-Sockel auf die Platine. Somit kann die Platine in einen IC-Sockel auf das Mainboard gesteckt werden und stört die darüber liegende Mechanik des Laufwerks nicht. 
 
