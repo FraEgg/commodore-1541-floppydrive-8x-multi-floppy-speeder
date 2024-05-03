@@ -50,7 +50,7 @@ Deshalb löte ich dann die U1 CPU und den Adressdecoder U4b1 ohne IC-Sockel auf 
 ![Beispiel Einbau in die 1541 IBeispiel wie die Platine in einer 1541 funktioniert. Der Adressdecoder und CPU sind oben auf die Platine gelötet. Das RAM und ROM (EPROM) befinden sich auf der Unterseite der Multi-Speeder Platine. 
 
 ## Bank Switching
-Die Kabel links (Gelb, Grün, Blau) legen die aktive Bank fest. Hier kann aus ein DIP-Switch eingesetzt werden. Macht aber bei der 1541 II wenig Sinn. Ich habe hier einen Binärschalter nach außen gelegt. Dieser legt diese Kontakte auf Masse (0). Ohne Schalter sind die Adressleitungen A16/A17/18 auf 1 und die Bank 7 ist aktiv. Liegen die drei Kontakte auf Masse, dann ist die Bank 0 aktiv. 
+Die Kabel links (Gelb, Grün, Blau) legen die aktive Bank fest. Hier kann auch ein DIP-Switch eingesetzt werden. Macht aber bei der 1541 II wenig Sinn. Ich habe hier einen Binärschalter nach außen gelegt. Dieser legt diese Kontakte auf Masse (0). Ohne Schalter sind die Adressleitungen A16/A17/18 auf 1 und die Bank 7 ist aktiv. Liegen die drei Kontakte auf Masse, dann ist die Bank 0 aktiv. 
 
 ## Downloads
 
