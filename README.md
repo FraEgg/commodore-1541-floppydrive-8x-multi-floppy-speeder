@@ -57,7 +57,8 @@ Die Kabel links (Gelb, Grün, Blau) legen die aktive Bank fest. Hier kann auch e
  - [Platinen Gerber Datei für PCWay.com](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/gerber)
  - [JED-Datei für ATF16V8 (GAL16V8)](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/gal16v8_pld)
  - [Bilder](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/images)
- - [Schaltplan](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/pcb)
+ - [Schaltplan](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/schematic)
+ - [Platine](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/pcb)
  - [Weitere Dokumentation](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/docs)
 
 ## Spenden
