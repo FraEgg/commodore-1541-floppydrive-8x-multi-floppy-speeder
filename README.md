@@ -4,7 +4,9 @@
 Mein Multi-Speeder-Projekt für das Commodore 1541 Diskettenlaufwerk besteht aus einer Erweiterungsplatine, die zwischen 6502 CPU gesetzt wird. Die Platine erweitert den Arbeitsspeicher der 1541 um 32KB und stellt über 8x 64KB Bänke DOS-Betriebssysteme für das 1541 Diskettenlaufwerk zur Verfügung. Die Erweiterungsplatine lässt sich in den beiden Versionen 1541 I und 1541 II betreiben. Ich habe ebenfalls eine Version für den Klone Oceanic OC-168 gestaltet (auf Anfrage).
 Mit meiner Multi-Speeder-Erweiterungsplatine können Sie das Original CBM-DOS 2.6, DolphinDos 2.0, SpeedDos 2.7 +, SpeedDos Expert, JiffyDOS und S-JiffyDOS umschaltbar betreiben.
 Die Adressierung der ROM- und RAM-Bereiche variiert, sodass der Multi-Speeder für die unterschiedlichen Floppyspeeder verwendet werden kann.
-Nicht Bestandteil dieses Projekt ist ein SpeedDos kompatibles Parallelkabel zum Userport des C64 und einen Adapter-Sockel für die Kernals im C64. Diese kann man aber bei bekannten Retro-Shops bestellen. z.B. Fazination64 (siehe Links).   
+
+Nicht Bestandteil dieses Projekt ist ein SpeedDos kompatibles Parallelkabel zum Userport des C64 und ein ROM-Adapter-Sockel für die Kernals im C64. 
+Dieses kann aber bei bekannten Retro-Shops bestellen. z.B. Fazination64 (siehe Links unten).   
 
 Ich habe den Schaltplan sowie die entsprechende Datei für den ATF16V8 (GAL16V8 kompatibel) Adressdecoder und die Gerber-Dateien für PCBWay zur Verfügung gestellt. Dies ermöglicht die eigene Herstellung der Platine.
 
