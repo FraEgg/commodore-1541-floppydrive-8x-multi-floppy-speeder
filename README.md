@@ -4,6 +4,7 @@
 Mein Multi-Speeder-Projekt für das Commodore 1541 Diskettenlaufwerk besteht aus einer Erweiterungsplatine, die zwischen 6502 CPU gesetzt wird. Die Platine erweitert den Arbeitsspeicher der 1541 um 32KB und stellt über 8x 64KB Bänke DOS-Betriebssysteme für das 1541 Diskettenlaufwerk zur Verfügung. Die Erweiterungsplatine lässt sich in den beiden Versionen 1541 I und 1541 II betreiben. Ich habe ebenfalls eine Version für den Klone Oceanic OC-168 gestaltet (auf Anfrage).
 Mit meiner Multi-Speeder-Erweiterungsplatine können Sie das Original CBM-DOS 2.6, DolphinDos 2.0, SpeedDos 2.7 +, SpeedDos Expert, JiffyDOS und S-JiffyDOS umschaltbar betreiben.
 Die Adressierung der ROM- und RAM-Bereiche variiert, sodass der Multi-Speeder für die unterschiedlichen Floppyspeeder verwendet werden kann.
+Nicht Bestandteil dieses Projekt ist ein SpeedDos kompatibles Parallelkabel zum Userport des C64 und einen Adapter-Sockel für die Kernals im C64. Diese kann man aber bei bekannten Retro-Shops bestellen. z.B. Fazination64.   
 
 Ich habe den Schaltplan sowie die entsprechende Datei für den ATF16V8 (GAL16V8 kompatibel) Adressdecoder und die Gerber-Dateien für PCBWay zur Verfügung gestellt. Dies ermöglicht die eigene Herstellung der Platine.
 
@@ -65,6 +66,7 @@ Die Kabel links (Gelb, Grün, Blau) legen die aktive Bank fest. Hier kann auch e
  - [Schaltplan](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/schematic)
  - [Platine](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/pcb)
  - [Weitere Dokumentation](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/docs)
+ - [Faszination64: Retro Teile wie 1541 Userport-Parallelkabel und C64 ROM-Kernal-Adapter](https://www.faszinationc64.de/)
 
 ## WDC 65C02 CPU und andere CPUs
 Ab der Platinenversion v1.5 kann auch eine neue WDC W65C02 CPU verwendet werden. Jedoch wird die 1541 dadurch nicht sehr kompatibel. Das original CBM-DOS läuft, die meisten Floppyspeeder nutzen jedoch auch illegale OP-Codes der originalen MOS 6502A CPU. Diese kann die WDC W65C02 CPU nicht. Die Folge ist, dass vieles an Software die Schnelllader verwenden nicht funktionieren. Deshalb suche ich noch eine FPGA Emulation die man für meinen Multi-Speeder anstelle einer originalen MOS 6502A CPU verwenden kann. Rockwell 6502 CPUs und die von UMC und SY6502A funktionieren auch problemlos.
