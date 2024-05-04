@@ -63,7 +63,8 @@ Im Gegensatz zur älteren 1541-I ist die 1541-II viel kompakter gebaut. Die Plat
 Die Kabel links (Gelb, Grün, Blau) (DIP1) legen die aktive Bank fest. Hier kann auch ein DIP-Switch oder Binär-Schalter eingesetzt werden. Macht aber bei der 1541-II wenig Sinn, da man im Betrieb keinen Zugang hat. In desem Beispiel habe ich hier einen Binärschalter über ein Kabel nach außen gelegt. Dieser legt diese Kontakte auf Masse GND (0). Ohne Schalter sind die Adressleitungen A16/A17/18 auf +5V (1) und die Bank 7 ist aktiv. Liegen die drei Kontakte am DIP1 auf Masse GND (0), dann ist die Bank 0 aktiv. 
 
 # Downloads
- - [Platinen Gerber Datei für PCWay.com](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/gerber)
+ - [Meine PCBWay.com Shared Project Page](https://www.pcbway.com/project/shareproject/Multi_Speeder_for_the_Commodore_1541_floppy_disk_drive_I_and_II_d4b53270.html)
+ - [Platinen Gerber Datei](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/gerber)
  - [JED-Datei für ATF16V8 (GAL16V8)](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/gal16v8_pld)
  - [Bilder](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/images)
  - [Schaltplan](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/schematic)
