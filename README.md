@@ -20,7 +20,7 @@ Neben der Platine werden folgende Bauteile benötigt:
  - 1x IC-Sockel PLCC 32, 32-polig (EEPROM/EPROM)
  - 1x IC Atmel F16V8 BQL-15PV (U4b1) (Adressdecoder)
  - 1x IC SRAM HM62256ALF-70G 28-PIN SOP oder ISSI 62C256AL-45ULI 28-PIN SOP
- - 1x EEPROM AM29LV040B (PLCC32) oder EPROM-OTP AT27C040 (PLCC32)
+ - 1x EEPROM EPROM-OTP AT27C040 oder AM27C040-120LC (PLCC32)
  - 2x Tantalkondensator, 100 nF bzw. 0,1µF, 35 V radial (C2 und C3) (C1 gibt es nicht mehr :-)
  - 3x Widerstände 4,7 kOhm / 1/4 Watt
  - 1x Dip-Schalter, liegend, 3-polig
