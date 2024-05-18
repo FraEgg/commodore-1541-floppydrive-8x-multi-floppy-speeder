@@ -59,7 +59,7 @@ Mit diesem System können dann verschiedene Floppyspeeder ohne weitere Anpassung
 Das ist ein Beispiel, wie z. B. die verschiedenen Speeder in welcher Bank funktionieren.
 
 # Commodore 1541-I
-![Betrieb in der älteren 1541 I](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/1541_I_PCB_V1.1-0.jpg?raw=true)
+![Betrieb in der älteren 1541 I](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/PCB_V1.5_1541_front.jpg?raw=true)
 Hier ist ein Beispiel für den Betrieb in einer älteren 1541-I. Die 6502 CPU und der Adressdecoder und EPROM sind gesockelt. Hier ist genug Platz. Dieses ist eine ältere Version 1.1 und das EPROM ist oben auf der Platine angebracht. Ab der Version 1.4 befindet sich das EPROM auf der Unterseite der Platine.
 
 # Commodore 1541-II
