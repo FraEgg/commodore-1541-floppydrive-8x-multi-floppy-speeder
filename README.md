@@ -29,6 +29,8 @@ Neben der Platine werden folgende Bauteile benötigt:
 
 Auf der Platine ab Version v1.5 braucht der Wiederstand R4 nicht bestückt werden und der JP1 bleibt offen. Diese sind nur für den Testbetrieb einer neuren WDC W65C02 CPU gedacht.  
 
+![Multispeeder PCB Foto](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5_1541_back.jpg)
+
 # EPROMS
 Du kannst ein Eprom-OTP 27c040 verwenden oder ein EEprom 29LV040. Bitte achte darauf, dass der jeweilige Jumper JP5 oder JP6 gesetzt wird. Ansonsten funktioniert das Umschalten der Banks nicht korrekt, da sich das PIN-Layout dieser Eprom-Typen leicht unterscheiden (PIN 1/PIN 32)
 
