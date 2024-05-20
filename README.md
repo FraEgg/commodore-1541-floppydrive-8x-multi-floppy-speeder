@@ -27,7 +27,7 @@ Neben der Platine werden folgende Bauteile benötigt:
  - 3x Jumper (JP1,JP2,JP3)
  - 2x 3x1 Header PIN-PIN
 
-Auf der Platine ab Version v1.5 braucht der Wiederstand R4 nicht bestückt werden und der JP1 bleibt offen. Diese sind nur für den Testbetrieb einer neuren WDC W65C02 CPU gedacht.  
+Auf der Platine ab Version v1.5 braucht der Wiederstand R4 nicht bestückt werden und der JP1 bleibt geschlossen. Diese sind nur für den Testbetrieb einer neuren WDC W65C02 CPU gedacht.  
 
 ![Multispeeder PCB Foto](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5_1541_back.jpg)
 
