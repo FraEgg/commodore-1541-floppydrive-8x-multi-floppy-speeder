@@ -20,10 +20,10 @@ Neben der Platine werden folgende Bauteile benötigt:
  - 1x IC-Sockel PLCC 32, 32-polig (EEPROM/EPROM)
  - 1x IC Atmel F16V8 BQL-15PV (U4b1) (Adressdecoder)
  - 1x IC SRAM HM62256ALF-70G 28-PIN SOP oder ISSI 62C256AL-45ULI 28-PIN SOP
- - 1x EPROM-OTP AT27C040-70JU oder AM27C040-120LC (PLCC32) oder EEPROM 29LV040 (PLCC32)
+ - 1x EPROM-OTP AT27C040-70JU oder AM27C040-120LC (PLCC32) oder EEPROM 29LV040 (PLCC32) (ab Version 1.6 die ensprechende Lötbrücke setzen!).
  - 2x Tantalkondensator, 100 nF bzw. 0,1µF, 35 V radial (C1 und C2)
- - 3x Widerstände 4,7 kOhm / 1/4 Watt (R2, R3, R4) 
- - optional 3,3 kOhm (R1 ist nur optional für eine WDC65C02 CPU und wird bei einer originalen MOS 6502 nicht benötigt!)
+ - 3x Widerstände 4,7 kOhm / 1/4 Watt (R1, R2, R3) 
+ - optional 3,3 kOhm (R4 ist nur optional für eine WDC65C02 CPU und wird bei einer originalen MOS 6502 nicht benötigt!)
  - 3x Jumper (JP1,JP2,JP3)
  - 2x 3x1 Header PIN-PIN
 
