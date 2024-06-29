@@ -1,4 +1,4 @@
-# Multi-Speeder für das Commodore 1541 Diskettenlaufwerk I und II (V1.5)
+# Multi-Speeder für das Commodore 1541 Diskettenlaufwerk I und II (V1.7)
  
 ![Multispeeder 1541 I und II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5.jpg)
 
