@@ -109,7 +109,7 @@ Ich wünsche euch dennoch viel Spaß und bin für Anregungen oder Verbesserungen
 # Changes
 V1.7 vom 20.06.2024
 - BOM aktualisiert.
-- Adressdecoder V1.7 optimiert. Bei BANK 6-7 wurde die Einblenung des ROM erweitert. Von $8000 - $8FFF auf $8000 - $9FFF.
+- Adressdecoder V1.7 optimiert. Bei BANK 6-7 wurde die Einblendung des ROM erweitert. Von $8000 - $8FFF auf $8000 - $9FFF.
 - RAM Footprint optimiert.
 - Beschriftung JP1-JP3 berichtigt (invertiert)
 - PCB Beschriftung optimiert. (TOP/BACK) PIN-Header auf der Rückseite eingerahmt.
