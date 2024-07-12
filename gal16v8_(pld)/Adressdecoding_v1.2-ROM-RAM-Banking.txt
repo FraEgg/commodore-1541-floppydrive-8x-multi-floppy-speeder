@@ -1,0 +1,14 @@
+Adressdecoder GAL16VA (1.2) V1.5
+---------------------
+A16|
+A17|
+A18|DIP|Bank  |DOS/KERNAL       |ROM Area                                         |RAM Area         |
+---+---+------+-----------------+-------------------------------------------------+-----------------|
+000|111|Bank 0|CBMDOS 2.6       |$00000 - $0FFFF|ROM $A000 - $FFFF                |RAM $6000 - $9FFF|
+001|110|Bank 1|DolphinDos 2.0   |$10000 - $1FFFF|ROM $A000 - $FFFF                |RAM $6000 - $9FFF|
+010|101|Bank 2|SpeedDos+40T     |$20000 - $2FFFF|ROM $A000 - $FFFF                |RAM $6000 - $9FFF|
+011|100|Bank 3|JiffyDos 5.0     |$30000 - $3FFFF|ROM $A000 - $FFFF                |RAM $6000 - $9FFF|
+100|011|Bank 4|S-JiffyDos 1     |$40000 - $4FFFF|ROM $8000 - $FFFF                |RAM $6000 - $7FFF|
+101|010|Bank 5|                 |$50000 - $5FFFF|ROM $8000 - $FFFF                |RAM $6000 - $7FFF|
+110|001|Bank 6|                 |$60000 - $6FFFF|ROM $8000 - $8FFF & $C000 - $FFFF|RAM $A000 - $BFFF|
+111|000|Bank 7|SpeedDos2.7Expert|$70000 - $7FFFF|ROM $8000 - $8FFF & $C000 - $FFFF|RAM $A000 - $BFFF|
