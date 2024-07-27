@@ -16,3 +16,8 @@ A18|123|Bank  |DOS/KERNAL       |EPROM          |ROM Bereich *)   |RAM          
 *) Ab dem Adressendecoder 2.0 wir in der 1541 das ROM grundsätzlich ab Adresse $2000 
 bis $FFFF eingeblendet. Nur der RAM-Bereich überlagert das ROM. Der Vorteil ist,
 dass es so möglich ist, weitere Kernalroutinen in der 1541 zu platzieren.
+
+
+
+
+

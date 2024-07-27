@@ -40,7 +40,7 @@ Ansonsten funktioniert das Umschalten der Banks nicht korrekt, da sich das PIN-L
 
 # ROMs
 Die DOS-KERNALs werden in einem EPROM abgelegt. 
-Das EPROM z. B. 27C040/29VL040 ist ein 512 KB EPROM. Es ist in 8x 64KB Bänke (Bank 0-7) aufgeteilt. 
+Das EPROM z. B. 27C040/29F040 ist ein 512 KB EPROM. Es ist in 8x 64KB Bänke (Bank 0-7) aufgeteilt. 
 Jede Bank $x0000 - $xFFFF spiegelt den 64 KB Speicherbereich der Floppy 1:1 wieder. 
 Wobei nur ein bestimmter Teil der Bereiche in den Speicherbereich der 1541 eingeblendet werden (siehe Tabelle unten). 
 Das nutzt natürlich die Kapazität des EPROM nicht besonders aus, macht aber das Adressdecoding und die Konfiguration sehr einfach und flexibel. 
@@ -48,9 +48,8 @@ Zudem kostet Speicher nicht mehr die Welt, ganz im Gegensatz zu den 80er-Jahren 
 Beim Betrieb der Multi-Speeder-Platine müssen alle Original ROM-Bausteine ICs der 1541 entfernt bzw. deaktiviert werden (CS/CE/OE auf dauer High), da diese sich sonst mit dem ROM des Multi-Speeder im Adressenkonflikt befinden. Die Folge wäre ein Absturz der Floppy direkt beim einschalten.  
 
 ## Welche ROM-Bereiche werden wann eingeblendet?
-> BANK 0-3 $A000 - $FFFF<br> 
-> BANK 4-5 $8000 - $FFFF <br>
-> BANK 6-7 $8000 - $9FFF & $C000 - $FFFF (bis V1.6 wird $8000-8fff - $C000 - $FFFF)<br>
+> BANK 0-7 $2000 - $FFFF<br> 
+Ab dem Adressendecoder 2.0 wir in der 1541 das ROM grundsätzlich ab Adresse $2000 bis $FFFF eingeblendet. Nur der RAM-Bereich überlagert das ROM. Der Vorteil ist, dass es so möglich ist, weitere Kernalroutinen in der 1541 zu platzieren.
 
 # RAM
 Ebenso wie das ROM wird das 32K RAM auch in verschiedenen Bereichen der 1541 eingeblendet. 
