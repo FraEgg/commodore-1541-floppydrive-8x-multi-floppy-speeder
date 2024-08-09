@@ -112,8 +112,12 @@ V1.7 vom 20.06.2024
 - RAM Footprint optimiert.
 - Beschriftung JP1-JP3 berichtigt (invertiert)
 - PCB Beschriftung optimiert. (TOP/BACK) PIN-Header auf der Rückseite eingerahmt.
+
 V1.7 vom 26.07.2024
 - Änderung von 29LV040 zu 29F040 Eprom
+
+V1.7a vom 09.08.2024
+- Ein neuer besserer Footprint für das SRAM um es besser löten zu können und das Eprom im PLCC Sockel oben auf dem PCB.
 
 Viele Grüße
 Frank
