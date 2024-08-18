@@ -60,6 +60,9 @@ Wo das RAM eingeblendet wird, ist von der BANK abhängig, die gerade aktiv ist.
 > BANK 4-5 $6000 - $7FFF (16KB)<br>
 > BANK 6-7 $A000 - $BFFF (16KB)<br>
 
+## 8x Multi-Speeder RAM Diagnose-Tool
+Im Verzeichnis /software/ befindet sich ein Diagnosetool für den C64, um das 32K RAM des Multi-Floppy-Speeders zu testen. Die Speicherstellen werden von $6000 bis $9FFF zunächst mit $00-Bytes und anschließend mit $FF-Bytes beschrieben. Sollten Fehler auftreten, werden diese angezeigt. Dieser Test sollte immer mit BANK0 und dem originalen CBMDOS durchgeführt werden. Das Tool gibt es hier zum ![Download](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/software). Das Tool ist hilfreich, um zu testen, ob nach dem Verlöten des RAM-Bausteins dieser auch funktioniert. 
+
 ## 1541 Adressdecoder-Spiegel-Problematik
 Bei der 1541 hat Commodore am Adressdecoder gespart. 
 Die VIAs IC bei $1800 und $1C00 werden in den Adressbereichen bis $8000 immer wieder gespiegel. 
