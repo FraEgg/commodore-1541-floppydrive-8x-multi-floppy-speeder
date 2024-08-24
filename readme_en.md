@@ -1,7 +1,5 @@
 # 8x Multi-Speeder for the Commodore 1541 Disk Drive I and II (V1.7)
 
-Here is an English version [> translation <](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/readme_en.md)!
-
 ![Multispeeder 1541 I and II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5.jpg)
 
 My Multi-Speeder project for the Commodore 1541 disk drive consists of an expansion board that is inserted between the 6502 CPU. The board expands the 1541's memory by 32 KB and provides 8x 64 KB banks for DOS operating systems on the 1541. The expansion board can be used with both the 1541-I and 1541-II versions. I have also designed a version for the Oceanic OC-168 clone (available on request).
