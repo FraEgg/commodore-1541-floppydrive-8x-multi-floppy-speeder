@@ -1,4 +1,6 @@
-# Multi-Speeder for the Commodore 1541 Disk Drive I and II (V1.7)
+# 8x Multi-Speeder for the Commodore 1541 Disk Drive I and II (V1.7)
+
+Here is an English version [> translation <](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/readme_en.md)!
 
 ![Multispeeder 1541 I and II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5.jpg)
 
