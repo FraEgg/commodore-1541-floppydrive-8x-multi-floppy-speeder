@@ -1,8 +1,8 @@
 # Multi-Speeder für das Commodore 1541 Diskettenlaufwerk I und II (V1.7)
- 
-![Multispeeder 1541 I und II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5.jpg)
 
 Here is an English version [> translation <](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/readme_en.md)!
+
+![Multispeeder 1541 I und II](https://raw.githubusercontent.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/master/images/PCB_V1.5.jpg)
 
 Mein Multi-Speeder-Projekt für das Commodore 1541 Diskettenlaufwerk besteht aus einer Erweiterungsplatine, die zwischen der 6502 CPU gesetzt wird. Die Platine erweitert den Arbeitsspeicher der 1541 um 32 KB und stellt 8x 64 KB Bänke für DOS-Betriebssysteme auf der 1541 zur Verfügung. Die Erweiterungsplatine lässt sich in den beiden Versionen 1541-I und 1541-II betreiben. Ich habe ebenfalls eine Version für den Klone Oceanic OC-168 gestaltet (auf Anfrage).
 Mit der Multi-Speeder-Erweiterungsplatine können u.a. das Original CBM-DOS 2.6, DolphinDos 2.0, SpeedDos 2.7 +, SpeedDos Expert, JiffyDOS und S-JiffyDOS umschaltbar betrieben werden.
