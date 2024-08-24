@@ -55,10 +55,18 @@ Ab dem Adressendecoder 2.0 wir in der 1541 das ROM grundsätzlich ab Adresse $20
 Ebenso wie das ROM wird das 32K RAM auch in verschiedenen Bereichen der 1541 eingeblendet. 
 Wo das RAM eingeblendet wird, ist von der BANK abhängig, die gerade aktiv ist.
 
-## Welche RAM-Bereche werden wann eingeblendet?
-> BANK 0-3 $6000 - $9FFF (32KB)<br>
-> BANK 4-5 $6000 - $7FFF (16KB)<br>
-> BANK 6-7 $A000 - $BFFF (16KB)<br>
+## ROM-RAM Memorymap
+
+| ROM Bank | ROM Area         | CPU RAM Area(s)       | Kernal                | Command  |
+| -------- | ---------------- | --------------------- | --------------------- | -------- |
+| 0        | $00000-$0FFFF    | $2000 - $9FFF 32 KB   | CBMDOS 2.6            | 1@RNROM  |
+| 1        | $10000-$1FFFF    | $2000 - $9FFF 32 KB   | DolphinDos 2.0        | 2@RNROM  |
+| 2        | $20000-$2FFFF    | $2000 - $9FFF 32 KB   | SpeedDos+40T          | 3@RNROM  |
+| 3        | $30000-$3FFFF    | $2000 - $9FFF 32 KB   | JiffyDos 5.0          | 4@RNROM  |
+| 4        | $40000-$4FFFF    | $2000 - $7FFF 24 KB   | S-JiffyDos 1          | 5@RNROM  |
+| 5        | $50000-$5FFFF    | $2000 - $7FFF 24 KB   | RapiDos Classic | 6@RNROM  |
+| 6        | $60000-$6FFFF    | $A000 - $BFFF 08 KB   | CBMDOS 2.6 (Placeholder) | 7@RNROM  |
+| 7        | $70000-$7FFFF    | $A000 - $BFFF 08 KB   | SpeedDos 2.7 Expert   | 8@RNROM  |
 
 ## 8x Multi-Speeder RAM Diagnose-Tool
 Im Verzeichnis /software/ befindet sich ein Diagnosetool für den C64, um das 32K RAM des Multi-Floppy-Speeders zu testen. Die Speicherstellen werden von $6000 bis $9FFF zunächst mit $00-Bytes und anschließend mit $FF-Bytes beschrieben. Sollten Fehler auftreten, werden diese angezeigt. Dieser Test sollte immer mit BANK0 und dem originalen CBMDOS durchgeführt werden. Das Tool gibt es hier zum ![Download](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/software). Das Tool ist hilfreich, um zu testen, ob nach dem Verlöten des RAM-Bausteins dieser auch funktioniert. 
@@ -68,11 +76,6 @@ Bei der 1541 hat Commodore am Adressdecoder gespart.
 Die VIAs IC bei $1800 und $1C00 werden in den Adressbereichen bis $8000 immer wieder gespiegel. 
 Das kollidiert mit der RAM Erweiterung. Das Problem habe ich behoben, in dem ich die Adressleitung A15 über die Platine entsprechend auf dem Motherboard anpasse. 
 Das stoppt das Spiegel-Problem für das RAM. Somit kollidiert ab der Adresse $2000 in der 1541 nichts mehr. 
-
-Mit diesem System können dann verschiedene Floppyspeeder ohne weitere Anpassungen betrieben werden.
-
-![Tabelle mit den Bank 0-7 und welche Speeder dort funktionieren.](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/BankTableSpeeder.png?raw=true) 
-Das ist ein Beispiel, wie z. B. die verschiedenen Speeder in welcher Bank funktionieren.
 
 # Commodore 1541-I
 ![Betrieb in der älteren 1541 I](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/blob/master/images/PCB_V1.5_1541_front.jpg?raw=true)
@@ -121,6 +124,10 @@ V1.7 vom 26.07.2024
 
 V1.7a vom 09.08.2024
 - Ein neuer besserer Footprint für das SRAM um es besser löten zu können und das Eprom im PLCC Sockel oben auf dem PCB.
+
+V1.7a vom 24.08.2024
+- Update ATF16V8 Adressdecoder to Version 2.2b.
+- Update Readme 
 
 Viele Grüße
 Frank
