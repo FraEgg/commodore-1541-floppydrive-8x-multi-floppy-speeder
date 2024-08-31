@@ -47,16 +47,16 @@ Just like the ROM, the 32K RAM is also mapped into various areas of the 1541. Wh
 
 ## ROM-RAM Memory Map
 
-| ROM Bank | ROM Area         | CPU RAM Area(s)       | Kernal                | Command  |
-| -------- | ---------------- | --------------------- | --------------------- | -------- |
-| 0        | $00000-$0FFFF    | $2000 - $9FFF 32 KB   | CBMDOS 2.6            | 1@RNROM  |
-| 1        | $10000-$1FFFF    | $2000 - $9FFF 32 KB   | DolphinDos 2.0        | 2@RNROM  |
-| 2        | $20000-$2FFFF    | $2000 - $9FFF 32 KB   | SpeedDos+40T          | 3@RNROM  |
-| 3        | $30000-$3FFFF    | $2000 - $9FFF 32 KB   | JiffyDos 5.0          | 4@RNROM  |
-| 4        | $40000-$4FFFF    | $2000 - $7FFF 24 KB   | S-JiffyDos 1          | 5@RNROM  |
-| 5        | $50000-$5FFFF    | $2000 - $7FFF 24 KB   | RapiDos Classic       | 6@RNROM  |
-| 6        | $60000-$6FFFF    | $A000 - $BFFF 08 KB   | CBMDOS 2.6 (Placeholder) | 7@RNROM  |
-| 7        | $70000-$7FFFF    | $A000 - $BFFF 08 KB   | SpeedDos 2.7 Expert   | 8@RNROM  |
+| ROM Bank | ROM Area         | CPU RAM Area(s)       | Kernal                |
+| -------- | ---------------- | --------------------- | --------------------- |
+| 0        | $00000-$0FFFF    | $2000 - $9FFF 32 KB   | CBMDOS 2.6            |
+| 1        | $10000-$1FFFF    | $2000 - $9FFF 32 KB   | DolphinDos 2.0        |
+| 2        | $20000-$2FFFF    | $2000 - $9FFF 32 KB   | SpeedDos+40T          |
+| 3        | $30000-$3FFFF    | $2000 - $9FFF 32 KB   | JiffyDos 5.0          |
+| 4        | $40000-$4FFFF    | $2000 - $7FFF 24 KB   | S-JiffyDos 1          |
+| 5        | $50000-$5FFFF    | $2000 - $7FFF 24 KB   | CBMDOS 2.6 (Placeholder) |
+| 6        | $60000-$6FFFF    | $A000 - $BFFF 08 KB   | CBMDOS 2.6 (Placeholder) |
+| 7        | $70000-$7FFFF    | $A000 - $BFFF 08 KB   | SpeedDos 2.7 Expert   |
 
 ## 8x Multi-Speeder RAM Diagnostic Tool
 In the /software/ directory, there is a diagnostic tool for the C64 to test the 32K RAM of the Multi-Floppy Speeder. The memory locations from $6000 to $9FFF are first written with $00 bytes and then with $FF bytes. Any errors encountered are displayed. This test should always be performed with BANK0 and the original CBMDOS. The tool is available for ![Download](https://github.com/FraEgg/commodore-1541-floppydrive-8x-multi-floppy-speeder/tree/master/software). The tool is useful for testing whether the RAM chip is functioning correctly after soldering.
